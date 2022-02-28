@@ -1,0 +1,49 @@
+<html>
+  <script src="p5.min.js"></script>
+  <script src="p5.dom.min.js"></script>
+  <script src="p5.sound.min.js"></script>
+  <script src="p5.play.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <title>Trabalho: Byjus</title>
+
+  <script>
+    window.alert("Toque nas caixas para alteral o plano de fundo");
+  </script>
+</head>
+
+<body class="b">
+  <script src="sketch.js"></script>
+<a class="text" >Color box</a>
+
+<!--Caixas-->
+
+<div id="BT" class="B1"></div>
+<div id ="BT2" class="B2"></div>
+<div id ="BT3" class="B3"></div>
+<div id ="BT3" class="B4"></div>
+<div id ="BT4" class="B5"></div>
+
+<script>
+    var box = document.getElementById("BT");
+    var box2 = document.getElementById("BT2");
+    var box3 = document.getElementById("BT3");
+    var box4 = document.getElementById("BT4");
+
+box.addEventListener('click', function() {
+  document.body.style.backgroundColor = 'rgb(0, 65, 163)';
+})
+
+box2.addEventListener('click', function() {
+  document.body.style.backgroundColor = 'rgb(21, 255, 0)';
+})
+
+box3.addEventListener('click', function() {
+  document.body.style.backgroundColor = 'white';
+})
+
+box4.addEventListener('click', function() {
+  document.body.style.backgroundColor = 'black';
+})
+</script>
+</body></html>
